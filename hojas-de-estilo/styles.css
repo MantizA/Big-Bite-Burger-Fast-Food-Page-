@@ -1,0 +1,167 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+  
+body{
+background:#f7f9fc ;
+font-family:Lato, sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-links :hover{
+    background-color: white!important;
+    cursor: pointer;
+    color:#100f0f;
+  }
+  
+  .nav-links li {
+    margin-right: 10px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #010101;
+    padding: 0px 20px; 
+  }
+
+  .logo-nav{
+    cursor: pointer;
+    animation: wiggle 2s linear infinite;
+  }
+
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+
+
+  .container-principal{
+   /***** border: 2px solid black; *****/ 
+    width: 1500px;
+    height: 550px;
+    padding: 10px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+  }
+
+  .imagen-promo{
+    width: 500px;
+    height: 90%;
+    margin: 10px;
+    /***** border: 2px solid black; *****/
+  }
+
+  .imagen-promo img{
+    width: 550px;
+  }
+
+  .texto-promo{
+    width: 100%;
+    height: 90%;
+    /***** border: 2px solid black; *****/
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texto-promo h1{
+    font-family: oswald;
+    font-size: 108px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+
+  .texto-promo h2{
+    line-height: 1.66em;
+    margin: 0;
+    font-family: 'Lato';
+    font-size: 60px;
+  }
+
+  .button-27 {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 45px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+    height: 30%;
+    will-change: transform;
+  }
+  
+  .button-27:disabled {
+    pointer-events: none;
+  }
+  
+  .button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  .flex-center i{
+    margin: 0 15px;
+    cursor: pointer;
+  }
+
+
+
+
+
+  
